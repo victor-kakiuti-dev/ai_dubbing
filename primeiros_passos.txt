@@ -1,0 +1,13 @@
+Primeiros passos do projeto AI Dunbbing
+
+comando para instalar o yt-dlp (downloader de vídeo)
+sudo apt update
+sudo apt install yt-dlp -y
+
+
+
+
+Extrair o áudio em WAV 16 kHz
+
+execute esse comando no diretório onde está o vídeo
+ffmpeg -i video.mp4 -ac 1 -ar 16000 -sample_fmt s16 audio_original.wav

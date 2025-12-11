@@ -1,0 +1,53 @@
+# ──────────── Python ────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# ──────────── Virtual envs ────────────
+venv/
+venv311/
+.env/
+.venv/
+
+# ──────────── Logs ────────────
+*.log
+
+# ──────────── Output de áudio/vídeo ────────────
+*.wav
+*.mp3
+*.aac
+*.ogg
+*.flac
+*.mp4
+*.mkv
+*.mov
+
+# para não ignorar arquivos de exemplo
+!example.wav
+!example.mp4
+
+# ──────────── Output gerado pelo Whisper/LLM ────────────
+timestamps.json
+*.srt
+*.vtt
+*.json
+
+# ──────────── Programas e ferramentas ────────────
+.DS_Store
+Thumbs.db
+
+# ──────────── VSCode ────────────
+.vscode/
+
+# ──────────── Python build ────────────
+build/
+dist/
+*.egg-info/
+
+# ──────────── Cache de libs ────────────
+.cache/
+.pytest_cache/
