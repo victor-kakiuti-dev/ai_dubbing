@@ -1,53 +1,94 @@
-# ──────────── Python ────────────
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pdb
-*.pkl
-*.pickle
+*.py[cod]
+*$py.class
 
-# ──────────── Virtual envs ────────────
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
 venv/
-venv311/
 .env/
 .venv/
+ENV/
+env/
+venv.bak/
 
-# ──────────── Logs ────────────
-*.log
+# PyInstaller
+*.manifest
+*.spec
 
-# ──────────── Output de áudio/vídeo ────────────
-*.wav
-*.mp3
-*.aac
-*.ogg
-*.flac
-*.mp4
-*.mkv
-*.mov
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# para não ignorar arquivos de exemplo
-!example.wav
-!example.mp4
-
-# ──────────── Output gerado pelo Whisper/LLM ────────────
-timestamps.json
-*.srt
-*.vtt
-*.json
-
-# ──────────── Programas e ferramentas ────────────
-.DS_Store
-Thumbs.db
-
-# ──────────── VSCode ────────────
-.vscode/
-
-# ──────────── Python build ────────────
-build/
-dist/
-*.egg-info/
-
-# ──────────── Cache de libs ────────────
-.cache/
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
 .pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs
+.vscode/
+.idea/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# dotenv
+.env.*.local
+.env.local
+.env.production.local
+.env.development.local
+
+# Misc
+*.swp
+*~
